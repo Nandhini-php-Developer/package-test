@@ -1,0 +1,24 @@
+{
+    "name": "laraphant/contactform",
+    "description": "laravel custom contactform package",
+    "type": "package",
+    "autoload": {
+        "psr-4": {
+            "Laraphant\\Contactform\\": "src/"
+        }
+    },
+    "extra":{
+        "laravel":{
+            "providers":[
+                "Laraphant\\Contactform\\ContactFormServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Nandhini"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
