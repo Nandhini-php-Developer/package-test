@@ -1,22 +1,23 @@
 {
-    "name": "laraphant/contactform",
-    "description": "laravel custom contactform package",
-    "type": "package",
+    "name": "laranew/contactform",
+    "description": "A Laravel custom contact form package",
+    "type": "library",
     "autoload": {
         "psr-4": {
-            "Laraphant\\Contactform\\": "src/"
+            "Laranew\\Contactform\\": "src/"
         }
     },
-    "extra":{
-        "laravel":{
-            "providers":[
-                "Laraphant\\Contactform\\ContactFormServiceProvider"
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Laranew\\Contactform\\ContactFormServiceProvider"
             ]
         }
     },
     "authors": [
         {
-            "name": "Nandhini"
+            "name": "Nandhini",
+            "email": "your.email@example.com"
         }
     ],
     "minimum-stability": "dev",

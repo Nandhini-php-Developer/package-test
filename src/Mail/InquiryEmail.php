@@ -1,6 +1,6 @@
 <?php
 
-namespace Laraphant\Contactform\Mail;
+namespace laranew\Contactform\Mail;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;

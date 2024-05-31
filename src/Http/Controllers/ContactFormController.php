@@ -1,11 +1,11 @@
 <?php
 
-namespace Laraphant\Contactform\Http\Controllers;
+namespace laranew\Contactform\Http\Controllers;
 
 use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Http\Request;
-use Laraphant\Contactform\Models\Contacts;
-use Laraphant\Contactform\Mail\InquiryEmail;
+use laranew\Contactform\Models\Contacts;
+use laranew\Contactform\Mail\InquiryEmail;
 use Illuminate\Support\Facades\Mail;
 
 class ContactFormController extends BaseController{

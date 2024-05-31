@@ -1,6 +1,6 @@
 <?php
 
-namespace Laraphant\Contactform\Models;
+namespace laranew\Contactform\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
