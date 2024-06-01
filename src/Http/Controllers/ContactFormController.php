@@ -4,8 +4,8 @@ namespace laranew\Contactform\Http\Controllers;
 
 use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Http\Request;
-use laranew\Contactform\Models\Contacts;
-use laranew\Contactform\Mail\InquiryEmail;
+use Laranew\Contactform\Models\Contacts;
+use Laranew\Contactform\Mail\InquiryEmail;
 use Illuminate\Support\Facades\Mail;
 
 class ContactFormController extends BaseController{
