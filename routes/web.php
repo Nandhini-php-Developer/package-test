@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use laranew\Contactform\Http\Controllers\ContactFormController;
+use Laranew\Contactform\Http\Controllers\ContactFormController;
 
 
 Route::middleware(['guest','web'])->group(function(){
